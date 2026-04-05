@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# FinFlow – Personal Finance App
 
-# Run and deploy your AI Studio app
+## Overview
+FinFlow is a simple and intuitive personal finance application designed for young professionals who are managing their finances for the first time.
 
-This contains everything you need to run your app locally.
+## Problem
+Many finance apps feel complex and overwhelming, making it difficult for users to understand their spending habits.
 
-View your app in AI Studio: https://ai.studio/apps/ca9b0597-fcdc-4699-ad03-2e484654d0cc
+## Solution
+FinFlow simplifies financial tracking by providing a clean dashboard, easy expense tracking, and clear insights.
 
-## Run Locally
+## Features
+- Financial Overview Dashboard
+- Expense Tracking
+- Transaction History
+- Savings Goals
+- Insights & Analytics
 
-**Prerequisites:**  Node.js
+## Unique Feature – Reflection Flow
+FinFlow includes a guided reflection feature that helps users review their weekly spending habits and improve financial decisions.
 
+## User Flow
+Dashboard → Add Expense → Enter Details → Save → Updated Dashboard
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Tech Stack
+- React
+- TypeScript
+- Vite
+
+## How to Run
+npm install  
+npm run dev
